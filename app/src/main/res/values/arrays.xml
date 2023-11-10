@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories_array">
+        <item>Tất cả</item>
+        <item>Ngôn Tình</item>
+        <item>Tiên Hiệp</item>
+        <item>Cổ Trang</item>
+    </string-array>
+
+<string-array name="categories_array1">
+    <item>Ngôn Tình</item>
+    <item>Tiên Hiệp</item>
+    <item>Cổ Trang</item>
+</string-array>
+</resources>

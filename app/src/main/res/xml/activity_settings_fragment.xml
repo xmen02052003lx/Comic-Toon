@@ -1,0 +1,21 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreferenceCompat
+        app:key="night_mode"
+        app:title="Chế độ bóng đêm"
+        android:icon="@drawable/ic_night"
+        app:summary="Bật/Tắt chế độ bóng đêm"
+        app:defaultValue="false" />
+
+    <Preference
+        app:key="change_password"
+        app:title="Đổi mật khẩu"
+        app:icon="@drawable/ic_password" />
+
+    <Preference
+        app:key="logout"
+        app:title="Đăng xuất"
+        app:icon="@drawable/ic_logout" />
+
+</PreferenceScreen>

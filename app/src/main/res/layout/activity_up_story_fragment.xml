@@ -1,0 +1,69 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Dropdown cho thể loại -->
+    <Spinner
+        android:id="@+id/spinnerCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:minHeight="48dp" />
+
+    <!-- Ô nhập tiêu đề -->
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Tiêu đề"
+        android:minHeight="48dp" />
+
+    <!-- Ô nhập mô tả -->
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Mô tả"
+        android:minHeight="48dp" />
+
+    <!-- Horizontal LinearLayout for the Button and ImageView -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <!-- Nút để tải ảnh lên (70% width) -->
+        <ImageView
+            android:id="@+id/btnUploadImage"
+            android:layout_width="0dp"
+            android:layout_height="300dp"
+            android:layout_weight="3"
+            android:background="#009688"
+            android:src="@drawable/baseline_arrow_circle_up_24"
+            android:text="Tải ảnh lên" />
+
+        <!-- ImageView (30% width) -->
+        <ImageView
+            android:id="@+id/imageanhmau"
+            android:layout_width="0dp"
+            android:layout_height="300dp"
+            android:layout_weight="7"/>
+        <!-- Add your ImageView attributes here -->
+
+    </LinearLayout>
+
+    <!-- Đăng bài button (full width) -->
+    <Button
+        android:id="@+id/btnPostStory"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginTop="16dp"
+        android:background="#009688"
+        android:text="Upload"
+        android:textColor="#000000" />
+</LinearLayout>

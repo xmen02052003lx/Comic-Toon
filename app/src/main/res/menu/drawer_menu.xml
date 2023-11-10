@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_info"
+            android:title="Sửa bài"
+            android:icon="@drawable/ic_suabai"/>
+        <item
+            android:id="@+id/menu_nofi"
+            android:title="Xóa bài"
+            android:icon="@drawable/ic_xoabai"/>
+        <item
+            android:id="@+id/menu_upbai"
+            android:icon="@drawable/ic_upload"
+            android:title="Đăng bài" />
+    </group>
+    <item
+        android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/menu_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/menu_send"
+                android:icon="@drawable/ic_send"
+                android:title="Send" />
+            <item
+                android:id="@+id/menu_rate_us"
+                android:title="Rate Us"
+                android:icon="@drawable/ic_rate"/>
+        </menu>
+    </item>
+</menu>
